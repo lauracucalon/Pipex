@@ -6,7 +6,7 @@
 #    By: lacucalo <lacucalo@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/04 16:51:49 by lacucalo          #+#    #+#              #
-#    Updated: 2023/12/05 15:43:26 by lacucalo         ###   ########.fr        #
+#    Updated: 2023/12/12 18:25:45 by lacucalo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC = gcc
 
 CFLAGS = -Wall -Werror -Wextra
 
-SOURCES = pipex.c pipex_utils.c
+SOURCES = pipex.c pipex_utils.c cmd.c
 
 OBJ = $(SOURCES:.c=.o)
 
